@@ -1,0 +1,99 @@
+// @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+
+//     .navbar-center {
+//         position: absolute;
+
+//         div ul li {
+//             margin-left: 30px;
+//             margin-right: 30px;
+//         }
+
+//         a {
+//             color: white;
+//             font-weight: bold;
+//             text-shadow: 0.1em 0.1em 0.2em black
+//         }
+//     }
+// }
+
+// nav {
+//     background-color: transparent !important;
+// }
+
+@media screen and (min-width: 992px) {
+    .navbar-center {
+        left: 50%;
+        transform: translatex(-50%);
+        width: 90%;
+        background-color: transparent !important;
+
+        div ul li {
+            margin-left: 100px;
+            margin-right: 30px;
+        }
+
+        a {
+            color: white;
+            font-weight: bold;
+            text-shadow: 0.1em 0.1em 0.2em black
+        }
+
+        .btn-dark {
+            width: 80px;
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 992px) {
+
+    .navbar-center {
+        position: absolute;
+
+        div ul li {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        a {
+            color: white;
+            font-weight: bold;
+            text-shadow: 0.1em 0.1em 0.2em black
+        }
+
+        .btn-dark {
+            width: 80px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .navbar-center {
+
+        .navbar-brand {
+            color: black;
+            font-weight: bold;
+            text-shadow: 0.1em 0.1em 0.2em white;
+            font-size: 20px;
+        }
+
+        div ul li {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        a {
+            color: black;
+            font-weight: bold;
+            text-shadow: 0.1em 0.1em 0.2em white;
+            font-size: 13px;
+
+        }
+
+        .btn-dark {
+            width: 80px;
+        }
+    }
+}
